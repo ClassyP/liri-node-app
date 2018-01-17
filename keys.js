@@ -1,3 +1,7 @@
+
+//twitter api key
+// gbHF08IxVDvvxBORoGQl4mqXd
+
 console.log('this is loaded');
 
 exports.twitter = {
