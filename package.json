@@ -1,26 +1,26 @@
 {
-  "name": "liri-node-app",
+  "name": "liribot",
   "version": "1.0.0",
-  "description": "LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.",
-  "main": "keys.js",
+  "description": "LIRI bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bizarrowill/LIRIbot.git"
+  },
+  "author": "William Robertson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bizarrowill/LIRIbot/issues"
+  },
+  "homepage": "https://github.com/bizarrowill/LIRIbot#readme",
   "dependencies": {
     "dotenv": "^4.0.0",
     "node-spotify-api": "^1.0.7",
     "request": "^2.83.0",
     "twitter": "^1.7.1"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ClassyP/liri-node-app.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ClassyP/liri-node-app/issues"
-  },
-  "homepage": "https://github.com/ClassyP/liri-node-app#readme"
+  "devDependencies": {}
 }
